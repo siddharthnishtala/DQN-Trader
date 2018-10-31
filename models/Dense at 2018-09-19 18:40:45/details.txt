@@ -1,0 +1,18 @@
+Layer 1
+type: Reshape	target_shape: (40, 1)	
+
+Layer 2
+type: Conv1D	filters: 16	kernel_size: 3	activation: relu	
+
+Layer 3
+type: Conv1D	filters: 16	kernel_size: 3	activation: relu	
+
+Layer 4
+type: Flatten	
+
+Layer 5
+type: Dense	units: 48	activation: relu	
+
+Layer 6
+type: Dense	units: 24	activation: relu	
+

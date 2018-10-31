@@ -1,0 +1,9 @@
+Layer 1
+type: Reshape	target_shape: (40,)	
+
+Layer 2
+type: Dense	units: 30	
+
+Layer 3
+type: Dense	units: 30	
+
